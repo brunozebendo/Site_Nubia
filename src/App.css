@@ -1,0 +1,16 @@
+.background {
+  background-image: url('./assets/imagens/Nubiaempe.jpeg');
+  background-size: cover;
+  height:100vh;
+  background-position: center;
+  background-repeat: no-repeat; 
+  display: flex;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+}
+
