@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import { createTheme, ThemeProvider} from "@mui/material/styles"
 
+//xs, sm, md, lg, xl
 
 const theme = createTheme({
   palette: {

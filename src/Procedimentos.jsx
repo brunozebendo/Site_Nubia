@@ -56,8 +56,8 @@ const itemData = [
 export default function Procedimentos() {
     return (
         <Paper id="procedimentos" elevation={5} sx={{p: 1, mt: 2}}>
-        <Typography sx={{color: "white", mt: 2, bgcolor: "rgba(108,6,7,1)", opacity: "80%"}} variant="h2">PROCEDIMENTOS</Typography>
-        <ImageList sx={{ width: "fulwidth", height: 450 }} variant="woven" cols={3} gap={8}>
+        <Typography sx={{fontSize: {md: "200%", xs: "80%"}, color: "white", mt: 2, bgcolor: "rgba(108,6,7,1)", opacity: "80%"}}>PROCEDIMENTOS</Typography>
+        <ImageList sx={{ width: {md: "100%", xs: "80%"}, height: "10%" }} variant="woven" cols={3} gap={8}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <img
