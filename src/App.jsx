@@ -8,8 +8,7 @@ import Procedimentos from './Procedimentos'
 import ParteFinal from './ParteFinal'
 import Zap from './Zap'
 import LogoImage from './Logo2'
-import { Fade } from '@mui/material'
-import { useReducer } from 'react'
+
 //xs, sm, md, lg, xl
 
 function App() {
@@ -25,15 +24,13 @@ function App() {
                 padding: "1rem",                
             }}>            
       {isDesktop && <Header/>}
-      <Zap />
-      <Fade >
-        <LogoImage />
-      </Fade>
+      <Zap />      
+      <LogoImage />      
       <Logotipo />
       <Sobre />
       <Cursos />
       <Procedimentos />      
-      <ParteFinal />
+      <ParteFinal />  
     </Container>    
     </>
   )
